@@ -1,0 +1,37 @@
+section{
+	background: url('./Images/I1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size; max-height: inherit;
+	padding-bottom: 1%;
+}
+
+nav{
+	background-color: rgba(0, 0, 0, 0.2);
+	text-align: center;
+	padding: 22px;
+}
+#bandeau{
+background-color: rgba(255, 255, 255, 0.2);
+margin-top: 20%;
+margin-bottom: 20%;
+}
+#contenu{
+	text-align: center;
+	padding: 22px;
+}
+a{color: white;padding: 20px;}
+a:hover{color: red;}
+
+
+h1{
+	color: red;
+}
+h2{
+	color: skyblue;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
