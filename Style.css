@@ -1,3 +1,7 @@
+html{
+	font-family: arial;
+	font-size: 16px;
+}
 section{
 	background: url('./Images/I1.jpg');
 	background-repeat: no-repeat;
@@ -5,24 +9,38 @@ section{
 	background-size; max-height: inherit;
 	padding-bottom: 1%;
 }
+a{color: white;
+	padding: 20px;
+	transition:ease 5s ;}
+	a:hover{color: red;}
+
 
 nav{
 	background-color: rgba(0, 0, 0, 0.2);
 	text-align: center;
 	padding: 22px;
 }
+
 #bandeau{
-background-color: rgba(255, 255, 255, 0.2);
-margin-top: 20%;
-margin-bottom: 20%;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin-top: 20%;
+	margin-bottom: 20%;
 }
 #contenu{
 	text-align: center;
-	padding: 22px;
+	padding: 2%;
 }
-a{color: white;padding: 20px;}
-a:hover{color: red;}
+#contenu
+	 a{color: yellow;
+	 	border :1px solid yellow;
+	 	padding: 10px;
+	 	border-radius: 15px;
+}
+#contenu a:hover{
+	color:white;
+	background-color: rgba(178, 32, 19, 1.0);}
 
+#contenu img:hover{transform: rotate(33deg)scale(1.5)transition:ease 5s ;}
 
 h1{
 	color: red;
