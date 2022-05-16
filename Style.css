@@ -6,7 +6,7 @@ html{
 			background: url(./Images/I2.jpg);
 			background-repeat: no-repeat;
 			background-size: cover;
-			background-size: contain;
+			background-size: var(30%);
 			padding-bottom: 1%;
 		}
 		a{color: white;
